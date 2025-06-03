@@ -1,64 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Awesome Landing Page</title>
+<link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-    <div class="header">
-        <p class="header-logo">Header Logo</p>
-        <ul class="header-ul">
-            <li class="header-link"><a>header link one</a></li>
-            <li class="header-link"><a>header link two</a></li>
-            <li class="header-link"><a>header link three</a></li>
+<header class="header">
+    <p class="header-logo">Header Logo</p>
+    <nav>
+    <ul class="header-ul">
+        <li><a class="header-link" href="#">header link one</a></li>
+        <li><a class="header-link" href="#">header link two</a></li>
+        <li><a class="header-link" href="#">header link three</a></li>
         </ul>
-    </div>
+    </nav>
+    </header>
 
-    <div class="hero">
-        <div class="hero-text">
-            <h1 class="hero-title">This website is awesome</h1>
-            <p class="hero-subtext">This website has some subtext that goes here under the main title. It's a smaller
-                fontand the
-                color is lower contrast.</p>
-            <button class="hero-button">Sign up</button>
-        </div>
-        <img class="hero-image" src="https://via.placeholder.com/150" alt="Placeholder Image">
+<section class="hero">
+    <div class="hero-text">
+        <h1 class="hero-title">This website is awesome</h1>
+    <p class="hero-subtext">
+        This website has some subtext that goes here under the main title. It's a smaller font and the color is lower
+        contrast.
+    </p>
+    <button class="hero-button">Sign up</button>
     </div>
-    <div class="info">
+    <img class="hero-image" src="https://via.placeholder.com/500x250" alt="Placeholder Image" />
+    </section>
+    
+    <section class="info">
         <h2 class="info-title">Some random information</h2>
-
-        <img class="info-image" src="https://via.placeholder.com/100" alt="Placeholder Image">
+    <div class="info-cards">
+        <div class="info-card">
+            <img class="info-image" src="https://via.placeholder.com/100" alt="Placeholder Image" />
         <p class="info-text">This is some subtext under an illustration or image</p>
-
-        <img class="info-image" src="https://via.placeholder.com/100" alt="Placeholder Image">
-        <p class="info-text">This is some subtext under an illustration or image</p>
-
-        <img class="info-image" src="https://via.placeholder.com/100" alt="Placeholder Image">
-        <p class="info-text">This is some subtext under an illustration or image</p>
-
-        <img class="info-image" src="https://via.placeholder.com/100" alt="Placeholder Image">
-        <p class="info-text">This is some subtext under an illustration or image</p>
-        </div>
-        <div class="quote">
-        <p class="quote-text">This is an inspiring quote, or testimonial from a customer. Maybe it's just filling up
-            space,
-            or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-        <p class="quote-author">-Thor, God of Thunder</p>
-        </div>
-        <div class="cta">
-            <h2 class="cta-title">Call to action! It's time!</h2>
-            <p class="cta-text">Sign up for our product by clicking that button right over there!</p>
-            <button class="cta-button">Sign up</button>
-        </div>
-
-    <div class="footer">
-        <p class="footer-text">Copyright &copy; The Odin Project 2021</p>
     </div>
+    <div class="info-card">
+        <img class="info-image" src="https://via.placeholder.com/100" alt="Placeholder Image" />
+        <p class="info-text">This is some subtext under an illustration or image</p>
+    </div>
+    <div class="info-card">
+        <img class="info-image" src="https://via.placeholder.com/100" alt="Placeholder Image" />
+        <p class="info-text">This is some subtext under an illustration or image</p>
+    </div>
+    <div class="info-card">
+        <img class="info-image" src="https://via.placeholder.com/100" alt="Placeholder Image" />
+        <p class="info-text">This is some subtext under an illustration or image</p>
+    </div>
+    </div>
+    </section>
+    
+    <section class="quote">
+        <p class="quote-text">
+            This is an inspiring quote, or testimonial from a customer. Maybe it's just filling up space, or maybe people
+            will actually read it. Who knows? All I know is that it looks nice.
+        </p>
+        <p class="quote-author">-Thor, God of Thunder</p>
+</section>
+
+<section class="cta">
+    <div class="cta-container">
+        <h2 class="cta-title">Call to action! It's time!</h2>
+        <p class="cta-text">Sign up for our product by clicking that button right over there!</p>
+        <button class="cta-button">Sign up</button>
+    </div>
+</section>
+
+<footer class="footer">
+    <p class="footer-text">Copyright &copy; The Odin Project 2021</p>
+</footer>
 
 </body>
-
 </html>
